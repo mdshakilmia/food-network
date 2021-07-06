@@ -1,0 +1,40 @@
+body{
+  font-family:'Roboto', sans-serif;
+  margin: 0;
+}
+.flex-display{
+  display: flex;
+}
+.half-width{
+  width: 50%;
+}
+.half-width img{
+  width: 100%;
+  padding-top: 5%;
+}
+.link-button{
+  background-image: linear-gradient(rgb(255, 153, 0), rgb(255, 77, 45));
+  padding: 20px 40px;
+  border-radius: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  display: inline-block;
+}
+.bannar-laft{
+  margin: 10% 0 0 10%;
+}
+.bannar-laft h1{
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: rgb(105, 105, 105);
+}
+.bannar-laft h1 span{
+  color: orange;
+}
+.bannar-laft p{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgb(151, 151, 151);
+}
