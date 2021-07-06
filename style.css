@@ -10,6 +10,7 @@ body{
 }
 .half-width img{
   width: 100%;
+  height: 100%;
   padding-top: 5%;
 }
 .link-button{
@@ -26,7 +27,7 @@ body{
   margin: 10% 0 0 10%;
 }
 .bannar-laft h1{
-  font-size: 3.5rem;
+  font-size: 3.3rem;
   font-weight: 900;
   color: rgb(105, 105, 105);
 }
@@ -37,4 +38,51 @@ body{
   font-size: 1.2rem;
   font-weight: 500;
   color: rgb(151, 151, 151);
+}
+.about-section{
+  background-image: url(image/shapes/7.png);
+  background-repeat: no-repeat;
+  margin-top: 10%;
+  height: 90%;
+}
+.about-left {
+  margin: 10% 10% 0 5%;
+  padding-bottom: 10%;
+}  
+.about-left h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: rgb(105, 105, 105);
+}
+.about-left p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: rgb(59, 59, 59);
+}
+.recipie{
+  padding: 100px 30px;
+  background-color: rgb(240, 240, 240);
+
+}
+.recipie h2{
+  text-align: center;
+  color: rgb(65, 65, 65);
+}
+.recipie p{
+  text-align: center;
+  color: rgb(138, 138, 138);
+}
+.box{
+  width: 33%;
+  margin: 30px;
+  padding: 12px;
+  border-radius: 20px;
+  background-color: white;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.box img{
+  width: 100%;
 }
